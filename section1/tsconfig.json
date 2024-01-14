@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", //컴파일 방식
+    "module": "ESNext", //모듈 컴파일 방식 (export, import 같은)
+    "outDir": "dist", //js 파일이 생성되는 공간
+    "strict": true, //엄격한 컴파일
+    "moduleDetection": "force"  //전역 모듈로 볼지 개별 모듈로 볼지 (변수명 중복)
+  },
+  "ts-node": {"esm": true}, //ts-node는 commonJs에서만 동작하기 때문에 설정
+  "include": [
+    "src" //tsc 명령어를 쓰면 src 하위 파일은 모두 자동으로 컴파일 됨
+  ]
+
+}
