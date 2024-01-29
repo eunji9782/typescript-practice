@@ -5,6 +5,7 @@
         "moduleDetection": "force",
         "outDir": "dist",
         "strict": true,
+        "moduleResolution" : "Node"
         //"strictNullChecks": false
     },
     "include": ["src"],
