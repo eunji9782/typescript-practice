@@ -5,11 +5,13 @@
         "moduleDetection": "force",
         "outDir": "dist",
         "strict": true,
-        "moduleResolution" : "Node"
+        "moduleResolution" : "Node",
+        "preserveValueImports": false,
         //"strictNullChecks": false
     },
     "include": ["src"],
     "ts-node": {
-        "esm": true
+        "esm": true,
+        "experimentalSpecifierResolution": "node",
     }
 }
